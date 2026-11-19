@@ -98,6 +98,10 @@
 	border-radius: 4px;
 }
 
+.prose-fastify :not(pre) > code {
+	overflow-wrap: anywhere;
+}
+
 .prose-fastify pre {
 	background: #0c0f13;
 	border: 1px solid var(--border);
